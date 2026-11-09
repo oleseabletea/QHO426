@@ -6,3 +6,12 @@ print(max(number))
 print(number[3])
 print(color[0])
 print(color[-1])
+print(number[-1])
+print(number[-2])
+if "green" in color:
+    print("yes white is in the given list color")
+else:
+    print("sorry! not found")
+color = ["red", "white", "black","pink","purple"]
+color[2]="green"
+print(color)
