@@ -3,7 +3,7 @@ def average_ofmarks(marks):
     average = total/len(marks)
     return average
 
-mark_list = [23,44,46,12,13,6]
+mark_list = list(map(int,input("Enter marks separately by space:").split()))
 avg = average_ofmarks(mark_list)
 print("the average marks is equal to", avg)
 
